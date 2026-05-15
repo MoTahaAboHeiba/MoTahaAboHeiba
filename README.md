@@ -10,7 +10,7 @@
 <p align="center">
 
 <a href="mailto:mohamed-aboheiba@outlook.com">
-<img src="https://img.shields.io/badge/Email-mohamed-aboheiba@outlook.com -blue?style=for-the-badge&logo=gmail">
+<img src="https://img.shields.io/badge/Email-mohamed-aboheiba@outlook.com-blue?style=for-the-badge&logo=gmail">
 </a>
 
 <br>
@@ -22,7 +22,7 @@
 <br>
 
 
-<a href="https://motahaaboheiba.github.io/Portfolio/#home">
+<a href="https://motahaaboheiba.github.io">
 <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-green?style=for-the-badge&logo=google-chrome">
 </a>
 </p>
