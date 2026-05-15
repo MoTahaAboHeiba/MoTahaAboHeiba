@@ -120,6 +120,19 @@ Built a production-ready RAG pipeline with automated PDF ingestion, semantic sea
 </p>
 
 ---
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1XZ86G7KY"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  
+  function gtag(){
+    dataLayer.push(arguments);
+  }
+  
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
 
 #  Connect With Me
 
