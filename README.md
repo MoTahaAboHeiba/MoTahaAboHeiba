@@ -1,9 +1,8 @@
 <h1 align="center">Mohamed Taha Abo Heiba</h1>
 <div align="center">
-<p align="center">
-  <img src="https://64.media.tumblr.com/35a5df46f5fff3a62efed1b577361217/27834cce08aba4ec-7f/s400x600/41cf935c17dfbe5cf72d19e05c03f7eb3a7f4397.gif" width="350">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=38C2BF&size=45&center=true&vCenter=true&height=60&width=600&lines=Data+Engineer;SQL+%7C+Python+%7C+AWS;Building+Data+Pipelines;Turning+Data+Into+Insights" alt="Typing Animation"/>
 </p>
- <h3 align="center"> Contact Me</h3>
+ <h3 align="center">📬 Contact Me</h3>
 
 <p align="center">
 
