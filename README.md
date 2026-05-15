@@ -116,9 +116,7 @@ Built a production-ready RAG pipeline with automated PDF ingestion, semantic sea
 #  GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MoTahaAboHeiba&show_icons=true&theme=tokyonight" />
-  
-  <img height="170" src="https://streak-stats.demolab.com/?user=MoTahaAboHeiba&theme=tokyonight" />
+  <img height="170" src="https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight" />
 </p>
 
 ---
