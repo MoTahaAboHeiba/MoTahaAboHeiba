@@ -1,15 +1,30 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=38C2BF&center=true&vCenter=true&width=700&lines=Data+Engineer;Big+Data+%7C+Cloud+Platforms;Spark+%7C+Kafka+%7C+Databricks+%7C+AWS;Building+Scalable+Data+Pipelines)](https://github.com/MoTahaAboHeiba)
+<h1 align="center">Mohamed Taha Abo Heiba</h1>
 
-# Mohamed Taha Abo Heiba
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=38C2BF&center=true&vCenter=true&width=700&lines=Data+Engineer;Big+Data+%7C+Cloud+Platforms;Spark+%7C+Kafka+%7C+Databricks+%7C+AWS;Building+Scalable+Data+Pipelines" />
+</p>
 
-Data Engineer focused on scalable ETL pipelines, distributed data processing, and cloud-native data platforms.
+<p align="center">
+  Data Engineer focused on scalable ETL pipelines, distributed data processing, and cloud-native data platforms.
+</p>
 
-[![Email](https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail)](mailto:mohamed-aboheiba@outlook.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mohamed-taha-abo-heiba/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Website-green?style=for-the-badge&logo=google-chrome)](https://motahaaboheiba.github.io)
+<p align="center">
+  <a href="mailto:mohamed-aboheiba@outlook.com">
+    <img src="https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail" />
+  </a>
+  
+  <a href="https://www.linkedin.com/in/mohamed-taha-abo-heiba/">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+  
+  <a href="https://motahaaboheiba.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-Website-green?style=for-the-badge&logo=google-chrome" />
+  </a>
+</p>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=MoTahaAboHeiba&label=Profile+Views&color=0e75b6&style=flat)](https://github.com/MoTahaAboHeiba)
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MoTahaAboHeiba&label=Profile+Views&color=0e75b6&style=flat" />
+</p>
 ---
 
 ## Current Focus
