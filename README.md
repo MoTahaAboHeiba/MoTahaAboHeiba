@@ -1,151 +1,157 @@
-<h1 align="center">Mohamed Taha Abo Heiba</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=38C2BF&center=true&vCenter=true&width=700&lines=Data+Engineer;Big+Data+%7C+Cloud+Platforms;Spark+%7C+Kafka+%7C+Databricks+%7C+AWS;Building+Scalable+Data+Pipelines" />
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=38C2BF&center=true&vCenter=true&width=750&lines=Mohamed+Taha+Abo+Heiba;Data+Engineer;Spark+%7C+Databricks+%7C+Delta+Lake+%7C+AWS;Building+Scalable+Data+Pipelines" />
 
-<p align="center">
-  Data Engineer focused on scalable ETL pipelines, distributed data processing, and cloud-native data platforms.
-</p>
+<a href="mailto:mohamed-aboheiba@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/mohamed-taha-abo-heiba/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://motahaaboheiba.github.io"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=github&logoColor=white"/></a>
 
-<p align="center">
-  <a href="mailto:mohamed-aboheiba@outlook.com">
-    <img src="https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail" />
-  </a>
-  
-  <a href="https://www.linkedin.com/in/mohamed-taha-abo-heiba/">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-  
-  <a href="https://motahaaboheiba.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-Website-green?style=for-the-badge&logo=google-chrome" />
-  </a>
-</p>
+<img src="https://komarev.com/ghpvc/?username=MoTahaAboHeiba&label=Profile+Views&color=38C2BF&style=flat" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MoTahaAboHeiba&label=Profile+Views&color=0e75b6&style=flat" />
-</p>
+</div>
+
 ---
 
 ## Current Focus
 
-- Building production-grade Data Engineering systems
-- Distributed processing with Spark & Databricks
-- Cloud-native data platforms on AWS
-- ETL orchestration & scalable pipelines
-- Data Warehousing & Medallion Architecture
+- Production-grade ETL pipelines on Databricks and Delta Lake
+- Cloud-native data platforms on AWS — Glue, Redshift, EMR, Athena
+- Data Warehousing and Medallion Architecture
+- ETL orchestration with Apache Airflow
 
 ---
 
 ## Tech Stack
 
-### Data Engineering & Big Data
+<div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=python,mysql,postgresql,docker,bash,git,github)](https://github.com/MoTahaAboHeiba)
+**Core**
 
-| Layer | Tools |
-|---|---|
-| Processing | Apache Spark · PySpark · Spark SQL |
-| Platforms | Databricks · Hadoop (HDFS, Hive, YARN) |
-| Storage | Delta Lake · SQL Server |
-| Orchestration | Apache Airflow |
-| Warehousing | Star Schema · Medallion Architecture |
+<img src="https://skillicons.dev/icons?i=python,mysql,postgresql,docker,bash,git,github&perline=7" />
 
-### Cloud & DevOps
+**Big Data & Processing**
 
-| Category | Tools |
-|---|---|
-| AWS | S3 · EC2 · RDS · IAM · Lambda · Glue · Athena · Redshift · EMR |
-| DevOps | Docker · Git · GitHub |
+<img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
+<img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
+<img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/Delta%20Lake-00ADD8?style=for-the-badge&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black"/>
 
-### Analytics & Visualization
+**Orchestration & Storage**
 
-- Power BI · DAX · Power Query · Matplotlib
+<img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
+<img src="https://img.shields.io/badge/Unity%20Catalog-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
+
+**Cloud — AWS**
+
+<img src="https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"/>
+<img src="https://img.shields.io/badge/Glue-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redshift-8C4FFF?style=for-the-badge&logo=amazonredshift&logoColor=white"/>
+<img src="https://img.shields.io/badge/EMR-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Athena-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/EC2%20%7C%20RDS%20%7C%20Lambda%20%7C%20IAM-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+
+**Analytics & BI**
+
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/DAX-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/Power%20Query-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+
+</div>
 
 ---
 
 ## Featured Projects
 
-### E-Commerce Lakehouse Platform
+### E-Commerce Lakehouse — Databricks & Delta Lake
 
-End-to-end Databricks lakehouse pipeline processing 200K+ records using Medallion Architecture (Bronze → Silver → Gold), Delta Lake, Unity Catalog, and Databricks Jobs orchestration.
+End-to-end lakehouse pipeline processing 200K+ records through Medallion Architecture (Bronze → Silver → Gold), with Unity Catalog governance and Databricks Jobs orchestration.
 
-**Tech Stack:** Databricks · PySpark · Delta Lake · Unity Catalog · Spark SQL
+| | |
+|---|---|
+| **Stack** | Databricks · PySpark · Delta Lake · Unity Catalog · Spark SQL |
+| **Sources** | 6 CSV files across 2 disconnected systems — CRM and ERP |
+| **Data Quality** | Encoding inconsistencies · corrupted prices · invalid dates · cross-source duplicate resolution |
+| **Output** | Star schema: Dim_Customer · Dim_Product · Fact_Sales stored as Delta Tables |
+| **Orchestration** | 3-task Job DAG · hard failure propagation · timestamped execution logging |
 
-**Highlights:**
-- Ingests raw CRM + ERP data from 6 disconnected CSV sources
-- Resolves encoding issues, corrupted values, invalid dates, and duplicate records across sources
-- Delivers a clean star schema (Dim_Customer, Dim_Product, Fact_Sales) stored as Delta Tables
-- Orchestrated via a 3-task Databricks Job DAG with failure propagation and execution logging
-
-🔗 [View Repository](https://github.com/MoTahaAboHeiba/E-Commerce-Lakehouse-Using-Databricks)
+[View Repository](https://github.com/MoTahaAboHeiba/E-Commerce-Lakehouse-Using-Databricks)
 
 ---
 
 ### SQL Server Data Warehouse
 
-Fully scriptable SQL Server warehouse with Bronze → Silver → Gold ETL layers, dimensional modeling, execution logging, and automated workflows.
+Fully scriptable SQL Server warehouse implementing Bronze → Silver → Gold ETL layers via stored procedures, with dimensional modeling and pipeline observability.
 
-**Tech Stack:** SQL Server · T-SQL · Stored Procedures · Star Schema
+| | |
+|---|---|
+| **Stack** | SQL Server · T-SQL · Stored Procedures · Star Schema |
+| **Architecture** | Medallion layers implemented as isolated, rerunnable stored procedures |
+| **Observability** | Execution log table tracking run timestamps and row counts per layer |
+| **Output** | Star schema optimized for analytical queries |
 
-**Highlights:**
-- Automated ETL pipeline with stored procedures per layer
-- Execution logging table tracking run timestamps and row counts
-- Star schema optimized for analytical queries
-
-🔗 [View Repository](https://github.com/MoTahaAboHeiba/SQL-Data-Warehouse-project)
+[View Repository](https://github.com/MoTahaAboHeiba/SQL-Data-Warehouse-project)
 
 ---
 
 ### Document Indexing & Retrieval Pipeline (RAG)
 
-Production-ready RAG pipeline with automated PDF ingestion, semantic search, conversational memory, and vector indexing. Delivers sub-100ms query responses.
+Production RAG API with automated PDF ingestion, semantic chunking, vector indexing, and conversational memory. Sub-100ms query responses against indexed documents.
 
-**Tech Stack:** FastAPI · LangChain · ChromaDB · Groq (Llama 3.3 70B)
+| | |
+|---|---|
+| **Stack** | FastAPI · LangChain · ChromaDB · Groq (Llama 3.3 70B) |
+| **Accuracy** | 100% source-grounded — responses scoped strictly to indexed content |
+| **Pipeline** | Automated PDF chunking → embedding → vector store ingestion |
+| **API** | REST interface with persistent conversational memory across sessions |
 
-**Highlights:**
-- 100% source-grounded responses — no hallucination outside indexed documents
-- Automated PDF chunking and embedding pipeline
-- REST API with conversational memory across sessions
-
-🔗 [View Repository](https://github.com/MoTahaAboHeiba/EduMate-RAG)
+[View Repository](https://github.com/MoTahaAboHeiba/EduMate-RAG)
 
 ---
 
 ### Online Retail Power BI Report
 
-Turned 541K raw retail transactions into a 3-page interactive analytics dashboard covering sales trends, product performance, and data quality metrics.
+Transformed 541K raw retail transactions into a 3-page interactive dashboard covering sales trends, product performance, and data quality metrics.
 
-**Tech Stack:** Power BI · Power Query · DAX
+| | |
+|---|---|
+| **Stack** | Power BI · Power Query · DAX |
+| **ETL** | Full transformation pipeline built in Power Query before report layer |
+| **Measures** | YoY growth · rolling averages · return rate via custom DAX |
+| **Extra** | Dedicated data quality page surfacing source anomalies |
 
-**Highlights:**
-- Full ETL handled in Power Query before report layer
-- Custom DAX measures for YoY growth, rolling averages, and return rate
-- Data quality page exposing anomalies in source data
-
-🔗 [View Repository](https://github.com/MoTahaAboHeiba/Online-Retail-PowerBi-Report)
+[View Repository](https://github.com/MoTahaAboHeiba/Online-Retail-PowerBi-Report)
 
 ---
 
 ## Certifications
 
+<div align="center">
+
 | Certification | Issuer |
-|---|---|
-| HCIA — Big Data Associate | Huawei |
+|:---|:---|
 | AWS Certified Cloud Practitioner (CLF-C02) | Amazon Web Services |
+| HCIA — Big Data Associate | Huawei |
+
+</div>
 
 ---
 
 ## GitHub Stats
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight)](https://github.com/MoTahaAboHeiba)
+<div align="center">
+  <img height="160" src="https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true" />
+  &nbsp;&nbsp;
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MoTahaAboHeiba&layout=compact&theme=tokyonight&hide_border=true" />
+</div>
 
 ---
 
-## Connect With Me
+<div align="center">
 
-[Email](mailto:mohamed-aboheiba@outlook.com) • [LinkedIn](https://www.linkedin.com/in/mohamed-taha-abo-heiba/) • [Portfolio](https://motahaaboheiba.github.io)
-
----
+[Email](mailto:mohamed-aboheiba@outlook.com) · [LinkedIn](https://www.linkedin.com/in/mohamed-taha-abo-heiba/) · [Portfolio](https://motahaaboheiba.github.io)
 
 *Building scalable data platforms and distributed data systems.*
+
+</div>
