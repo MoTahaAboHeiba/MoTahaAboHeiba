@@ -142,8 +142,6 @@ Transformed 541K raw retail transactions into a 3-page interactive dashboard cov
 
 <div align="center">
   <img height="160" src="https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true" />
-  &nbsp;&nbsp;
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MoTahaAboHeiba&layout=compact&theme=tokyonight&hide_border=true)
 </div>
 
 ---
