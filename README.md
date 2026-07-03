@@ -12,12 +12,52 @@
 
 ---
 
+## How I Think About Data Engineering
+
+I treat data infrastructure as a systems problem: correctness before performance, observability from day one, and hard boundaries between pipeline layers. A pipeline that runs once is not the same as one that runs reliably every day — schema contracts, failure propagation, and execution logging live in that gap.
+
+My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Server warehouses built on stored-procedure layers, and production RAG APIs with offline evaluation harnesses. The same reliability principles apply across all of it.
+
+---
+
 ## Current Focus
 
-- Production-grade ETL pipelines on Databricks and Delta Lake
+- Medallion Architecture pipelines on Databricks and Delta Lake
 - Cloud-native data platforms on AWS — Glue, Redshift, EMR, Athena
-- Data Warehousing and Medallion Architecture
+- DE for AI workflows — vector indexing, hybrid retrieval, and retrieval evaluation
 - ETL orchestration with Apache Airflow
+
+---
+
+## Architecture at a Glance
+
+```mermaid
+graph TD
+    A([Raw Sources]):::source --> B[Bronze Layer\nIngestion + Schema Enforcement]:::bronze
+    B --> C[Silver Layer\nCleaning + Transformation]:::silver
+    C --> D[Gold Layer\nStar Schema / Analytics-Ready]:::gold
+
+    D --> E[BI & Reporting\nPower BI · DAX]:::consumer
+    D --> F[AI Pipelines\nVector Indexing · RAG · Retrieval Eval]:::consumer
+
+    G([Batch — CSV · DB · API]):::ingest --> B
+    H([Stream — Kafka · Flink]):::ingest --> B
+
+    B --> I[Observability\nExecution Logs · Row Counts]:::obs
+    C --> I
+    D --> I
+
+    classDef source fill:#0d1117,stroke:#38C2BF,color:#38C2BF,stroke-width:2px
+    classDef ingest fill:#161b22,stroke:#38C2BF,color:#c9d1d9,stroke-width:1px,stroke-dasharray:4 3
+    classDef bronze fill:#1a1a2e,stroke:#CD7F32,color:#CD7F32,stroke-width:2px
+    classDef silver fill:#1a1a2e,stroke:#C0C0C0,color:#C0C0C0,stroke-width:2px
+    classDef gold fill:#1a1a2e,stroke:#FFD700,color:#FFD700,stroke-width:2px
+    classDef consumer fill:#0d1117,stroke:#38C2BF,color:#c9d1d9,stroke-width:1px
+    classDef obs fill:#161b22,stroke:#444,color:#888,stroke-width:1px,stroke-dasharray:3 3
+```
+
+> Built this way across every project: the SQL Server warehouse, the Databricks lakehouse, and the RAG pipeline.
+> The layers aren't convention — they're enforcement boundaries.
 
 ---
 
@@ -36,6 +76,8 @@
 <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
 <img src="https://img.shields.io/badge/Delta%20Lake-00ADD8?style=for-the-badge&logo=databricks&logoColor=white"/>
 <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black"/>
+<img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white"/>
 
 **Orchestration & Storage**
 
@@ -51,6 +93,13 @@
 <img src="https://img.shields.io/badge/EMR-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/Athena-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/EC2%20%7C%20RDS%20%7C%20Lambda%20%7C%20IAM-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+
+**AI Data Engineering**
+
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
 
 **Analytics & BI**
 
@@ -87,38 +136,41 @@ Fully scriptable SQL Server warehouse implementing Bronze → Silver → Gold ET
 | | |
 |---|---|
 | **Stack** | SQL Server · T-SQL · Stored Procedures · Star Schema |
-| **Architecture** | Medallion layers implemented as isolated, rerunnable stored procedures |
-| **Observability** | Execution log table tracking run timestamps and row counts per layer |
-| **Output** | Star schema optimized for analytical queries |
+| **Scale** | 60K+ records ingested across 6 sources |
+| **Architecture** | 17 stored procedures orchestrated by 2 master procedures — any unit reruns independently |
+| **Observability** | Per-step execution-time logging table for direct bottleneck identification |
+| **Output** | Star schema exposed as SQL views for downstream analytics |
 
 [View Repository](https://github.com/MoTahaAboHeiba/SQL-Data-Warehouse-project)
 
 ---
 
-### Document Indexing & Retrieval Pipeline (RAG)
+### EduMate-RAG — Production Retrieval API
 
-Production RAG API with automated PDF ingestion, semantic chunking, vector indexing, and conversational memory. Sub-100ms query responses against indexed documents.
+Production RAG microservice with automated PDF ingestion, semantic retrieval with keyword-overlap reranking, and an offline evaluation harness across 73 QA pairs.
 
 | | |
 |---|---|
-| **Stack** | FastAPI · LangChain · ChromaDB · Groq (Llama 3.3 70B) |
-| **Accuracy** | 100% source-grounded — responses scoped strictly to indexed content |
-| **Pipeline** | Automated PDF chunking → embedding → vector store ingestion |
-| **API** | REST interface with persistent conversational memory across sessions |
+| **Stack** | FastAPI · LangChain · Qdrant Cloud · ChromaDB · Groq (Llama 3.3 70B) · HuggingFace Spaces |
+| **Retrieval** | Semantic similarity + keyword-overlap reranking + deduplication over 24K+ indexed chunks |
+| **Evaluation** | 73-query offline harness: 79.45% HitRate@5 · 81.4% Faithfulness |
+| **Latency** | ~100ms ChromaDB local · ~240ms Qdrant Cloud production |
+| **Deployment** | Decoupled microservice — platform-integrated and standalone modes |
 
-[View Repository](https://github.com/MoTahaAboHeiba/EduMate-RAG)
+[Live Demo](https://huggingface.co/spaces/MoTahaAboHeiba/EduMate-RAG) · [View Repository](https://github.com/MoTahaAboHeiba/EduMate-RAG)
 
 ---
 
 ### Online Retail Power BI Report
 
-Transformed 541K raw retail transactions into a 3-page interactive dashboard covering sales trends, product performance, and data quality metrics.
+Transformed 541K raw retail transactions into a 3-page interactive dashboard covering revenue analysis, product performance, and data quality metrics.
 
 | | |
 |---|---|
 | **Stack** | Power BI · Power Query · DAX |
-| **ETL** | Full transformation pipeline built in Power Query before report layer |
+| **ETL** | 541K → 406K records after cleaning; 8 engineered features |
 | **Measures** | YoY growth · rolling averages · return rate via custom DAX |
+| **Finding** | Top 25% of customers drive 65% of £9.73M revenue |
 | **Extra** | Dedicated data quality page surfacing source anomalies |
 
 [View Repository](https://github.com/MoTahaAboHeiba/Online-Retail-PowerBi-Report)
@@ -129,10 +181,10 @@ Transformed 541K raw retail transactions into a 3-page interactive dashboard cov
 
 <div align="center">
 
-| Certification | Issuer |
-|:---|:---|
-| AWS Certified Cloud Practitioner (CLF-C02) | Amazon Web Services |
-| HCIA — Big Data Associate | Huawei |
+| Certification | Issuer | Valid Until |
+|:---|:---|:---|
+| AWS Certified Cloud Practitioner (CLF-C02) | Amazon Web Services | May 2029 |
+| HCIA — Big Data Associate | Huawei Technologies | Mar 2029 |
 
 </div>
 
@@ -148,8 +200,8 @@ Transformed 541K raw retail transactions into a 3-page interactive dashboard cov
 
 <div align="center">
 
-[Email](mailto:mohamed-aboheiba@outlook.com) · [LinkedIn](https://www.linkedin.com/in/mohamed-taha-abo-heiba/) · [Portfolio](https://motahaaboheiba.github.io)
+[Email](mailto:mohamed-aboheiba@outlook.com) · [LinkedIn](https://www.linkedin.com/in/mohamed-taha-abo-heiba/) · [Portfolio](https://motahaaboheiba.github.io) · [Resume](https://motahaaboheiba.github.io/Data_Engineer_Mohamed_Taha_AboHeiba_CV.pdf)
 
-*Building scalable data platforms and distributed data systems.*
+*Building data systems that are reliable by design, maintainable in practice, and useful to the business.*
 
 </div>
