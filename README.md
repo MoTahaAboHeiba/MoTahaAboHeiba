@@ -35,26 +35,20 @@ The architecture follows the problem, not the other way around. Three different 
 
 ```mermaid
 graph LR
-    subgraph LAKEHOUSE ["Lakehouse Pipeline"]
-        L1([6 CSV Sources\nCRM + ERP]):::source --> L2[Bronze\nRaw Ingestion]:::bronze
-        L2 --> L3[Silver\nCleaning + Joins]:::silver
-        L3 --> L4[Gold\nStar Schema\nDelta Tables]:::gold
-        L4 --> L5([Databricks Jobs\n3-task DAG]):::consumer
-    end
+    L1([6 CSV Sources\nCRM + ERP]):::source --> L2[Bronze\nRaw Ingestion]:::bronze
+    L2 --> L3[Silver\nCleaning + Joins]:::silver
+    L3 --> L4[Gold\nStar Schema\nDelta Tables]:::gold
+    L4 --> L5([Databricks Jobs\n3-task DAG]):::consumer
 
-    subgraph WAREHOUSE ["SQL Warehouse"]
-        W1([6 Source Files\n60K+ records]):::source --> W2[Staging\nRaw Load]:::bronze
-        W2 --> W3[Clean\n17 Stored Procs]:::silver
-        W3 --> W4[Star Schema\nSQL Views]:::gold
-        W4 --> W5([Execution Log\nBottleneck Tracking]):::consumer
-    end
+    W1([6 Source Files\n60K+ records]):::source --> W2[Staging\nRaw Load]:::bronze
+    W2 --> W3[Clean\n17 Stored Procs]:::silver
+    W3 --> W4[Star Schema\nSQL Views]:::gold
+    W4 --> W5([Execution Log\nRow Counts]):::consumer
 
-    subgraph RAG ["Retrieval Pipeline"]
-        R1([35+ PDFs\nAcademic Corpus]):::source --> R2[Chunking\n+ Embedding]:::process
-        R2 --> R3[Vector Index\nQdrant Cloud]:::process
-        R3 --> R4[Semantic Retrieval\n+ Reranking]:::process
-        R4 --> R5([73-Query Eval\n79.45% HitRate@5]):::consumer
-    end
+    R1([35+ PDFs\nAcademic Corpus]):::source --> R2[Chunking\n+ Embedding]:::process
+    R2 --> R3[Vector Index\nQdrant Cloud]:::process
+    R3 --> R4[Semantic Retrieval\n+ Reranking]:::process
+    R4 --> R5([73-Query Eval\n79.45% HitRate@5]):::consumer
 
     classDef source fill:#0d1117,stroke:#38C2BF,color:#38C2BF,stroke-width:2px
     classDef bronze fill:#1a1a2e,stroke:#CD7F32,color:#CD7F32,stroke-width:2px
