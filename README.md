@@ -152,7 +152,7 @@ Transformed 541K raw retail transactions into a 3-page interactive dashboard cov
 | Certification | Issuer | Valid Until |
 |:---|:---|:---|
 | AWS Certified Cloud Practitioner (CLF-C02) | Amazon Web Services | May 2029 |
-| HCIA — Big Data Associate | Huawei Technologies | Mar 2029 |
+| HCIA — Big Data Associate | Huawei Technologies | March 2029 |
 
 </div>
 
