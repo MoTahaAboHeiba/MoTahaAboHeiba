@@ -166,7 +166,10 @@ Transformed 541K raw retail transactions into a 3-page interactive dashboard cov
 
 ---
 
-![snake animation](https://raw.githubusercontent.com/MoTahaAboHeiba/MoTahaAboHeiba/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MoTahaAboHeiba/MoTahaAboHeiba/main/dist/github-contribution-grid-snake-dark.svg">
+  <img alt="snake animation" src="https://raw.githubusercontent.com/MoTahaAboHeiba/MoTahaAboHeiba/main/dist/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
