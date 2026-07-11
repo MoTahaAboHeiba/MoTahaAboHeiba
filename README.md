@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=38C2BF&center=true&vCenter=true&width=750&lines=Mohamed+Taha+Abo+Heiba;Data+Engineer;Spark+%7C+Databricks+%7C+Delta+Lake+%7C+AWS;Building+Scalable+Data+Pipelines" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=38C2BF&center=true&vCenter=true&width=750&lines=Mohamed+Taha+Abo+Heiba;Data+Engineer;Cloud+%7C+ETL+%7C+Big+Data" alt="Typing SVG" />
 
 <a href="mailto:mohamed-aboheiba@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/mohamed-taha-abo-heiba/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -14,9 +14,9 @@
 
 ## How I Think About Data Engineering
 
-I treat data infrastructure as a systems problem: correctness before performance, observability from day one, and hard boundaries between pipeline layers. A pipeline that runs once is not the same as one that runs reliably every day — schema contracts, failure propagation, and execution logging live in that gap.
+I treat data infrastructure as a systems problem: correctness before performance, observability from day one, and hard boundaries between pipeline layers. A pipeline that runs once is not the same as one that runs reliably at scale.
 
-My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Server warehouses built on stored-procedure layers, and production RAG APIs with offline evaluation harnesses. The same reliability principles apply across all of it.
+My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Server warehouses built on stored-procedure layers, and production RAG APIs with offline evaluation harnesses. The same rigor applies everywhere.
 
 ---
 
@@ -166,14 +166,17 @@ Transformed 541K raw retail transactions into a 3-page interactive dashboard cov
 
 ---
 
+<div align="center" style="background: linear-gradient(135deg, #0d1117 0%, #161b22 100%); padding: 20px; border-radius: 12px; margin: 20px 0;">
+
 ![snake animation](https://raw.githubusercontent.com/MoTahaAboHeiba/MoTahaAboHeiba/output/github-contribution-grid-snake.gif)
-<div align="center">
+
+</div>
 
 ---
 
 <div align="center">
 
-[Email](mailto:mohamed-aboheiba@outlook.com) · [LinkedIn](https://www.linkedin.com/in/mohamed-taha-abo-heiba/) · [Portfolio](https://motahaaboheiba.github.io) · [Resume](https://motahaaboheiba.github.io/Data_Engineer_Mohamed_Taha_AboHeiba_CV.pdf)
+[Email](mailto:mohamed-aboheiba@outlook.com) · [LinkedIn](https://www.linkedin.com/in/mohamed-taha-abo-heiba/) · [Portfolio](https://motahaaboheiba.github.io) · [Resume](https://motahaaboheiba.github.io)
 
 *Building data systems that are reliable by design, maintainable in practice, and useful to the business.*
 
