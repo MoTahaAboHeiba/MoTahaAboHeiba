@@ -35,4 +35,3 @@ jobs:
           message: "chore: generate snake animation"
           add: dist/
           new_branch: output
-          pull: --rebase --autostash
