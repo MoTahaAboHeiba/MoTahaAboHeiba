@@ -125,7 +125,7 @@ Production RAG microservice with automated PDF ingestion, semantic retrieval wit
 | **Latency** | ~100ms ChromaDB local · ~240ms Qdrant Cloud production |
 | **Deployment** | Decoupled microservice — platform-integrated and standalone modes |
 
-[Live Demo](https://mo-taha-aboheiba-edumate-rag.hf.space) · [View Repository](https://github.com/MoTahaAboHeiba/EduMate-RAG)
+[Live](https://mo-taha-aboheiba-edumate-rag.hf.space) · [View Repository](https://github.com/MoTahaAboHeiba/EduMate-RAG)
 
 ---
 
