@@ -24,7 +24,7 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 
 - Medallion Architecture pipelines on Databricks and Delta Lake
 - Cloud-native data platforms on AWS: Glue, Redshift, EMR, Athena
-- DE for AI workflows — vector indexing, hybrid retrieval, and retrieval evaluation
+- DE for AI workflows: vector indexing, hybrid retrieval, and retrieval evaluation
 - ETL orchestration with Apache Airflow
 
 ---
