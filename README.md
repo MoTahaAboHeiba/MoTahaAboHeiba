@@ -81,7 +81,7 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 
 ## Featured Projects
 
-### E-Commerce Lakehouse — Databricks & Delta Lake
+### E-Commerce Lakehouse | Databricks & Delta Lake
 
 End-to-end lakehouse pipeline processing 200K+ records through Medallion Architecture (Bronze → Silver → Gold), with Unity Catalog governance and Databricks Jobs orchestration.
 
