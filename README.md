@@ -113,7 +113,7 @@ Fully scriptable SQL Server warehouse implementing Bronze → Silver → Gold ET
 
 ---
 
-### EduMate-RAG — Production Retrieval API
+### EduMate-RAG | Production Retrieval API
 
 Production RAG microservice with automated PDF ingestion, semantic retrieval with keyword-overlap reranking, and an offline evaluation harness across 73 QA pairs.
 
