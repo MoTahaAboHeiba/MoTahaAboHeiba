@@ -23,8 +23,8 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 ## Current Focus
 
 - Medallion Architecture pipelines on Databricks and Delta Lake
-- Cloud-native data platforms on AWS: Glue, Redshift, EMR, Athena
-- DE for AI workflows: vector indexing, hybrid retrieval, and retrieval evaluation
+- Cloud-native data platforms on AWS — Glue, Redshift, EMR, Athena
+- DE for AI workflows — vector indexing, hybrid retrieval, and retrieval evaluation
 - ETL orchestration with Apache Airflow
 
 ---
@@ -81,7 +81,7 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 
 ## Featured Projects
 
-### E-Commerce Lakehouse | Databricks & Delta Lake
+### E-Commerce Lakehouse — Databricks & Delta Lake
 
 End-to-end lakehouse pipeline processing 200K+ records through Medallion Architecture (Bronze → Silver → Gold), with Unity Catalog governance and Databricks Jobs orchestration.
 
@@ -113,7 +113,7 @@ Fully scriptable SQL Server warehouse implementing Bronze → Silver → Gold ET
 
 ---
 
-### EduMate-RAG | Production Retrieval API
+### EduMate-RAG — Production Retrieval API
 
 Production RAG microservice with automated PDF ingestion, semantic retrieval with keyword-overlap reranking, and an offline evaluation harness across 73 QA pairs.
 
@@ -125,7 +125,7 @@ Production RAG microservice with automated PDF ingestion, semantic retrieval wit
 | **Latency** | ~100ms ChromaDB local · ~240ms Qdrant Cloud production |
 | **Deployment** | Decoupled microservice — platform-integrated and standalone modes |
 
-[Live](https://mo-taha-aboheiba-edumate-rag.hf.space) · [View Repository](https://github.com/MoTahaAboHeiba/EduMate-RAG)
+[Live Demo](https://mo-taha-aboheiba-edumate-rag.hf.space) · [View Repository](https://github.com/MoTahaAboHeiba/EduMate-RAG)
 
 ---
 
@@ -161,15 +161,14 @@ Transformed 541K raw retail transactions into a 3-page interactive dashboard cov
 ## GitHub Stats
 
 <div align="center">
-  <img height="180" src= "https://streak-stats.demolab.com/?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true" />
+  <img height="160" src="https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true" />
 </div>
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MoTahaAboHeiba/MoTahaAboHeiba/main/dist/github-contribution-grid-snake-dark.svg" >
-  <img alt="snake animation" src="https://raw.githubusercontent.com/MoTahaAboHeiba/MoTahaAboHeiba/main/dist/github-contribution-grid-snake.svg" >
-</picture>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MoTahaAboHeiba/MoTahaAboHeiba/main/dist/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%" />
+</div>
 
 ---
 
