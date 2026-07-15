@@ -12,7 +12,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -25,8 +25,9 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push changes
-        uses: actions/add-and-commit@v9
-        with:
-          default_author: github_actions
-          message: "Update snake animation"
-          add: "dist/*.svg"
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+          git add dist/*.svg
+          git commit -m "Update snake animation" || echo "No changes to commit"
+          git push
