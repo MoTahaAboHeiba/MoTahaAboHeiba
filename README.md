@@ -23,8 +23,8 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 ## Current Focus
 
 - Medallion Architecture pipelines on Databricks and Delta Lake
-- Cloud-native data platforms on AWS — Glue, Redshift, EMR, Athena
-- DE for AI workflows — vector indexing, hybrid retrieval, and retrieval evaluation
+- Cloud-native data platforms on AWS: Glue, Redshift, EMR, Athena
+- DE for AI workflows: vector indexing, hybrid retrieval, and retrieval evaluation
 - ETL orchestration with Apache Airflow
 
 ---
@@ -105,7 +105,7 @@ Fully scriptable SQL Server warehouse implementing Bronze → Silver → Gold ET
 |---|---|
 | **Stack** | SQL Server · T-SQL · Stored Procedures · Star Schema |
 | **Scale** | 60K+ records ingested across 6 sources |
-| **Architecture** | 17 stored procedures orchestrated by 2 master procedures — any unit reruns independently |
+| **Architecture** | 17 stored procedures orchestrated by 2 master procedures, any unit reruns independently |
 | **Observability** | Per-step execution-time logging table for direct bottleneck identification |
 | **Output** | Star schema exposed as SQL views for downstream analytics |
 
@@ -123,7 +123,7 @@ Production RAG microservice with automated PDF ingestion, semantic retrieval wit
 | **Retrieval** | Semantic similarity + keyword-overlap reranking + deduplication over 24K+ indexed chunks |
 | **Evaluation** | 73-query offline harness: 79.45% HitRate@5 · 81.4% Faithfulness |
 | **Latency** | ~100ms ChromaDB local · ~240ms Qdrant Cloud production |
-| **Deployment** | Decoupled microservice — platform-integrated and standalone modes |
+| **Deployment** | Decoupled microservice: platform-integrated and standalone modes |
 
 [Live Demo](https://mo-taha-aboheiba-edumate-rag.hf.space) · [View Repository](https://github.com/MoTahaAboHeiba/EduMate-RAG)
 
