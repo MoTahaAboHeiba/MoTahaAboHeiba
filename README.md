@@ -161,7 +161,7 @@ Transformed 541K raw retail transactions into a 3-page interactive dashboard cov
 ## GitHub Stats
 
 <div align="center">
-  <img height="160" src="https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true" />
+  <img height="160" src="https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true"/>
 </div>
 
 ---
