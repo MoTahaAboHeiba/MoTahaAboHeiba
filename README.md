@@ -14,12 +14,6 @@
 
 ---
 
-<p align="center">
-Data Engineer specializing in cloud-native pipelines and lakehouse architecture. AWS &amp; Huawei certified, building production systems on Databricks, Spark, and Airflow, with hands-on work extending into retrieval infrastructure for AI applications.
-</p>
-
----
-
 ## How I Think About Data Engineering
 
 I treat data infrastructure as a systems problem: correctness before performance, observability from day one, and hard boundaries between pipeline layers. A pipeline that runs once is not the same as one that runs reliably at scale.
@@ -170,6 +164,9 @@ Transformed 541K raw retail transactions into a 3-page interactive dashboard cov
 
 <div align="center">
 
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=MoTahaAboHeiba&show_icons=true&theme=tokyonight&title_color=38C2BF&icon_color=38C2BF&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MoTahaAboHeiba&layout=compact&theme=tokyonight&title_color=38C2BF&icon_color=38C2BF&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
+
 <img height="160" src="https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true" />
 
 </div>
@@ -179,7 +176,7 @@ Transformed 541K raw retail transactions into a 3-page interactive dashboard cov
 ## Contribution Activity
 
 <div align="center">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MoTahaAboHeiba&bg_color=00000000&color=38C2BF&line=38C2BF&point=ffffff&area=true&hide_border=true" alt="activity graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MoTahaAboHeiba&bg_color=00000000&color=38C2BF&line=38C2BF&point=ffffff&area=true&hide_border=true" alt="activity graph"/>
 </div>
 
 <div align="center">
