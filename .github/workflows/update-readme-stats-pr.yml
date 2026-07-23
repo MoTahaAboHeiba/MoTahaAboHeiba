@@ -1,4 +1,4 @@
-name: Update README stats (push with PAT)
+name: Update README stats (create PR)
 
 on:
   schedule:
@@ -24,12 +24,14 @@ jobs:
           curl -s -o dist/activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=MoTahaAboHeiba&bg_color=00000000&color=38C2BF&line=38C2BF&point=2ea043&area=true&hide_border=true"
           curl -s -o dist/streak-stats.svg "https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true"
 
-      - name: Configure git and push with PAT
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Replace origin URL to use the REPO_PAT secret for authentication
-          git remote set-url origin https://x-access-token:${{ secrets.REPO_PAT }}@github.com/${{ github.repository }}.git
-          git add dist/*.svg
-          git commit -m "chore: update README stats" || echo "no changes to commit"
-          git push origin HEAD:main
+      - name: Create pull request if there are changes
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: chore: update README stats
+          branch: update-readme-stats
+          title: chore: update README stats
+          body: Automated update of README stats images
+          labels: automated
+          committer-name: github-actions[bot]
+          committer-email: 41898282+github-actions[bot]@users.noreply.github.com
