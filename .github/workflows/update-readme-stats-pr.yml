@@ -1,0 +1,37 @@
+name: Update README stats (create PR)
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # daily at 01:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      - name: Download GitHub README images
+        run: |
+          curl -s -o dist/github-stats.svg "https://github-readme-stats.vercel.app/api?username=MoTahaAboHeiba&show_icons=true&theme=tokyonight&hide_border=true"
+          curl -s -o dist/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=MoTahaAboHeiba&layout=compact&theme=tokyonight&hide_border=true"
+          curl -s -o dist/activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=MoTahaAboHeiba&bg_color=00000000&color=38C2BF&line=38C2BF&point=2ea043&area=true&hide_border=true"
+          curl -s -o dist/streak-stats.svg "https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true"
+
+      - name: Create pull request if there are changes
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: chore: update README stats
+          branch: update-readme-stats
+          title: chore: update README stats
+          body: Automated update of README stats images
+          labels: automated
+          committer-name: github-actions[bot]
+          committer-email: 41898282+github-actions[bot]@users.noreply.github.com
