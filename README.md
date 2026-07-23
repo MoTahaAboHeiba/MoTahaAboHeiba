@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=38C2BF&center=true&vCenter=true&width=750&lines=Mohamed+Taha+Abo+Heiba;Data+Engineer;Cloud+%7C+ETL+%7C+Big+Data" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=38C2BF&fontColor=ffffff&fontSize=40&height=120&width=750&text=Mohamed%20Taha%20Abo%20Heiba" alt="Header" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=38C2BF&center=true&vCenter=true&width=750&lines=Data+Engineer;Cloud+%7C+ETL+%7C+Big+Data" alt="Typing SVG" />
 
 <a href="mailto:mohamed-aboheiba@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/mohamed-taha-abo-heiba/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -9,6 +11,12 @@
 <img src="https://komarev.com/ghpvc/?username=MoTahaAboHeiba&label=Profile+Views&color=38C2BF&style=flat" />
 
 </div>
+
+---
+
+<p align="center">
+Data Engineer specializing in cloud-native pipelines and lakehouse architecture. AWS &amp; Huawei certified, building production systems on Databricks, Spark, and Airflow, with hands-on work extending into retrieval infrastructure for AI applications.
+</p>
 
 ---
 
@@ -161,20 +169,18 @@ Transformed 541K raw retail transactions into a 3-page interactive dashboard cov
 ## GitHub Stats
 
 <div align="center">
-  <img height="160" src= "https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true" />
+
+<img height="160" src="https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true" />
+
 </div>
 
 ---
+
+## Contribution Activity
 
 <div align="center">
-  <img height="165" src="./dist/github-stats.svg" />
-  <img height="165" src="./dist/top-langs.svg" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MoTahaAboHeiba&bg_color=00000000&color=38C2BF&line=38C2BF&point=ffffff&area=true&hide_border=true" alt="activity graph" />
 </div>
-
-<img width="100%" src="./dist/activity-graph.svg" />
-<img height="160" src="./dist/streak-stats.svg" />
-
----
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/MoTahaAboHeiba/MoTahaAboHeiba/main/dist/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%" />
