@@ -127,6 +127,8 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 [Email](mailto:mohamed-aboheiba@outlook.com) · [LinkedIn](https://www.linkedin.com/in/mohamed-taha-abo-heiba/) · [Portfolio](https://motahaaboheiba.github.io) · [Resume](https://motahaaboheiba.github.io)
 
 *Building data systems that are reliable by design, maintainable in practice, and useful to the business.*
-**Take a Look at my pinned projects Down Here**
 
+</div>
+<div align="center">
+Take a Look at my pinned projects Down Here
 </div>
