@@ -53,7 +53,6 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 <img src="https://img.shields.io/badge/Delta%20Lake-00ADD8?style=for-the-badge&logo=databricks&logoColor=white"/>
 <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black"/>
 <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white"/>
 
 **Orchestration & Storage**
 
@@ -66,8 +65,6 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 <img src="https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"/>
 <img src="https://img.shields.io/badge/Glue-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/Redshift-8C4FFF?style=for-the-badge&logo=amazonredshift&logoColor=white"/>
-<img src="https://img.shields.io/badge/EMR-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/Athena-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/EC2%20%7C%20RDS%20%7C%20Lambda%20%7C%20IAM-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 
 **AI Data Engineering**
@@ -129,6 +126,16 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 *Building data systems that are reliable by design, maintainable in practice, and useful to the business.*
 
 </div>
+
+---
+
 <div align="center">
 Take a Look at my pinned projects Down Here
+</div>
+
+---
+
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,100:0A0A0A&height=100&section=footer" />
 </div>
