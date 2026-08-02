@@ -133,9 +133,6 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 Take a Look at my pinned projects Down Here
 </div>
 
----
-
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,100:0A0A0A&height=100&section=footer" />
 </div>
