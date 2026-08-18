@@ -101,7 +101,7 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 
 <div align="center">
 
-<img height="160" src= "https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true" />
+<img height="160" src= "https://streak-stats.demolab.com?user=MoTahaAboHeiba&theme=tokyonight&hide_border=true"/>
 
 </div>
 
