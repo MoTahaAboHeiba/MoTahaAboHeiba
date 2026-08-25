@@ -110,11 +110,11 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 ## Contribution Activity
 
 <div align="center">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MoTahaAboHeiba&bg_color=00000000&color=38C2BF&line=38C2BF&point=ffffff&area=true&hide_border=true" alt="activity graph" />
+<img width="100%" src= "https://github-readme-activity-graph.vercel.app/graph?username=MoTahaAboHeiba&bg_color=00000000&color=38C2BF&line=38C2BF&point=ffffff&area=true&hide_border=true" alt="activity graph" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MoTahaAboHeiba/MoTahaAboHeiba/main/dist/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%" />
+  <img src= "https://raw.githubusercontent.com/MoTahaAboHeiba/MoTahaAboHeiba/main/dist/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%"/>
 </div>
 
 ---
