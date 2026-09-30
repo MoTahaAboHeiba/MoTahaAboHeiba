@@ -6,7 +6,7 @@
 
 <a href="mailto:mohamed-aboheiba@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/mohamed-taha-abo-heiba/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://motahaaboheiba.github.io"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://my-portfolio.mohamed-aboheiba.workers.dev"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 <img src="https://komarev.com/ghpvc/?username=MoTahaAboHeiba&label=Profile+Views&color=38C2BF&style=flat" />
 
@@ -117,7 +117,7 @@ My work spans batch ETL on Databricks, streaming with Kafka and Flink, SQL Serve
 
 <div align="center">
 
-[Email](mailto:mohamed-aboheiba@outlook.com) · [LinkedIn](https://www.linkedin.com/in/mohamed-taha-abo-heiba/) · [Portfolio](https://motahaaboheiba.github.io) · [Resume](https://motahaaboheiba.github.io)
+[Email](mailto:mohamed-aboheiba@outlook.com) · [LinkedIn](https://www.linkedin.com/in/mohamed-taha-abo-heiba/) · [Portfolio](https://my-portfolio.mohamed-aboheiba.workers.dev) · [Resume](https://my-portfolio.mohamed-aboheiba.workers.dev)
 
 *Building data systems that are reliable by design, maintainable in practice, and useful to the business.*
 
